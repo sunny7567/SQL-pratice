@@ -61,3 +61,9 @@ SELECT id, occurred_at, total_amt_usd
 FROM orders
 ORDER BY occurred_at 
 LIMIT 10;
+              
+--Write a query to return the top 5 orders in terms of the largest total_amt_usd. Include the id, account_id, and total_amt_usd.
+SELECT total_amt_usd, id, account_id 
+FROM orders
+ORDER BY total_amt_usd DESC
+LIMIT 5;
