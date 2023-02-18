@@ -1,4 +1,4 @@
-DA 103.3 ADVANCE SQL
+  # SQL Pratice
 --Each company in the accounts table wants to create an email address for each primary_poc. The email address should be the first name of the primary_poc . last name primary_poc @ company name .com.
 
   WITH t1 AS (
