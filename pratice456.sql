@@ -50,3 +50,8 @@ ON a.id = o.account_id
 WHERE occurred_at Between '2016-01-01' AND '2018-01-01'
 GROUP BY 1
 ORDER BY 3 DESC;
+              
+--Try using LIMIT yourself below by writing a query that displays all the data in the occurred_at, account_id, and channel columns of the web_events table, and limits the output to only the first 15 rows.
+SELECT occurred_at,account_id,channel
+FROM web_events
+LIMIT 15;              
